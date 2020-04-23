@@ -1,0 +1,193 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/9560d988/
+<Leader><\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <Leader><	:set lz<CR>:silent! call <SID>DrawFatLArrow/;"	m
+<Leader>>\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <Leader>>	:set lz<CR>:silent! call <SID>DrawFatRArrow/;"	m
+<Leader>^\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <Leader>^	:set lz<CR>:silent! call <SID>DrawFatUArrow/;"	m
+<Leader>a	../autoload/DrawIt.vim	/^  vmap     <silent> <buffer> <script> <nowait> <Leader>a  :<c-u>call <SID>CallBox('Arrow')<CR>$/;"	m
+<Leader>b	../autoload/DrawIt.vim	/^  vmap     <silent> <buffer> <script> <nowait> <Leader>b  :<c-u>call <SID>CallBox('DrawBox')<cr>$/;"	m
+<Leader>c	../autoload/DrawIt.vim	/^  nmap              <buffer> <script> <nowait> <Leader>c  :call <SID>Canvas()<cr>$/;"	m
+<Leader>di	../plugin/DrawItPlugin.vim	/^  map <unique> <Leader>di <Plug>DrawItStart$/;"	m
+<Leader>ds	../plugin/DrawItPlugin.vim	/^  map <unique> <Leader>ds <Plug>DrawItStop$/;"	m
+<Leader>e	../autoload/DrawIt.vim	/^  vmap <buffer> <silent> <nowait> <Leader>e   :<c-u>call <SID>CallBox('DrawEllipse')<CR>$/;"	m
+<Leader>f\t:call	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <Leader>f	:call <SID>Flood()<cr>$/;"	m
+<Leader>g\t:call	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <Leader>g	:call <SID>ToggleGrid()<cr>$/;"	m
+<Leader>l	../autoload/DrawIt.vim	/^  vmap     <silent> <buffer> <script> <nowait> <Leader>l  :<c-u>call <SID>CallBox('DrawPlainLine/;"	m
+<Leader>rwp	../plugin/cecutil.vim	/^ map <unique> <Leader>rwp <Plug>RestoreWinPosn$/;"	m
+<Leader>s	../autoload/DrawIt.vim	/^  vmap     <silent> <buffer> <script> <nowait> <Leader>s  :<c-u>call <SID>Spacer(line("'<"), lin/;"	m
+<Leader>swp	../plugin/cecutil.vim	/^ map <unique> <Leader>swp <Plug>SaveWinPosn$/;"	m
+<Leader>v\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <Leader>v	:set lz<CR>:silent! call <SID>DrawFatDArrow/;"	m
+<Plug>DrawItStart	../plugin/DrawItPlugin.vim	/^noremap <silent>        <Plug>DrawItStart  :set lz<cr>:call DrawIt#DrawItStart()<cr>:set nolz<cr/;"	m
+<Plug>DrawItStop	../plugin/DrawItPlugin.vim	/^noremap <silent> <Plug>DrawItStop :set lz<cr>:call DrawIt#DrawItStop()<cr>:set nolz<cr>$/;"	m
+<Plug>RestoreWinPosn\t:call	../plugin/cecutil.vim	/^nmap <silent> <Plug>RestoreWinPosn	:call RestoreWinPosn()<CR>$/;"	m
+<Plug>SaveWinPosn\t\t:call	../plugin/cecutil.vim	/^nmap <silent> <Plug>SaveWinPosn		:call SaveWinPosn()<CR>$/;"	m
+<\t\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <			:set lz<CR>:silent! call <SID>DrawSpace('<',2)<CR/;"	m
+<c-leftdrag>	../autoload/DrawIt.vim	/^  noremap <silent> <buffer> <script> <c-leftdrag>    :<c-u>call <SID>CLeftDrag()<cr>$/;"	m
+<c-leftmouse>	../autoload/DrawIt.vim	/^  nnoremap <silent> <buffer> <script> <nowait> <c-leftmouse>  <leftmouse>:call <SID>CLeftStart()/;"	m
+<c-leftmouse>	../autoload/DrawIt.vim	/^  vnoremap <silent> <buffer> <script> <nowait> <c-leftmouse>  <leftmouse>:<c-u>call <SID>CLeftSt/;"	m
+<c-leftrelease>	../autoload/DrawIt.vim	/^  noremap <silent> <buffer> <script> <c-leftrelease> <leftmouse>:<c-u>call <SID>CLeftRelease()<c/;"	m
+<c-v>	../autoload/DrawIt.vim	/^  nnoremap <silent> <buffer> <script> <nowait> <c-v>      :call <SID>LeftStart()<CR><c-v>$/;"	m
+<down>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <down>     <Esc><down>a$/;"	m
+<down>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <down>		:set lz<CR>:silent! call <SID>DrawDown()<CR>:/;"	m
+<end>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <end>      <Esc><end>a$/;"	m
+<end>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <end>		:set lz<CR>:silent! call <SID>DrawSlantDownLef/;"	m
+<home>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <home>     <Esc><home>a$/;"	m
+<home>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <home>		:set lz<CR>:silent! call <SID>DrawSlantUpLeft/;"	m
+<left>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <left>     <Esc><left>a$/;"	m
+<left>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <left>		:set lz<CR>:silent! call <SID>DrawLeft()<CR>:/;"	m
+<leftmouse>	../autoload/DrawIt.vim	/^  nnoremap <silent> <buffer> <script> <nowait> <leftmouse>    <leftmouse>:call <SID>LeftStart()</;"	m
+<leftrelease>	../autoload/DrawIt.vim	/^  vnoremap <silent> <buffer> <script> <leftrelease> <leftrelease>:<c-u>call <SID>LeftRelease()<c/;"	m
+<middlemouse>	../autoload/DrawIt.vim	/^  vnoremap <silent> <buffer> <script> <nowait> <middlemouse>  <leftmouse>:<c-u>call <SID>RightSt/;"	m
+<pagedown>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <pagedown> <Esc><pagedown>a$/;"	m
+<pagedown>\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <pagedown>	:set lz<CR>:silent! call <SID>DrawSlantDow/;"	m
+<pageup>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <pageup>   <Esc><pageup>a$/;"	m
+<pageup>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <pageup>		:set lz<CR>:silent! call <SID>DrawSlantUpRi/;"	m
+<right>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <right>    <Esc><right>a$/;"	m
+<right>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <right>		:set lz<CR>:silent! call <SID>DrawRight()<CR/;"	m
+<rightmouse>	../autoload/DrawIt.vim	/^  vnoremap <silent> <buffer> <script> <nowait> <rightmouse>   <leftmouse>:<c-u>call <SID>RightSt/;"	m
+<s-down>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <s-down>   <Esc><s-down>a$/;"	m
+<s-down>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <s-down>		:set lz<CR>:silent! call <SID>MoveDown()<CR/;"	m
+<s-left>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <s-left>		:set lz<CR>:silent! call <SID>MoveLeft()<CR/;"	m
+<s-leftdrag>	../autoload/DrawIt.vim	/^  noremap <silent> <buffer> <script> <s-leftdrag>    <leftmouse>:<c-u>call <SID>SLeftDrag()<cr>$/;"	m
+<s-leftmouse>	../autoload/DrawIt.vim	/^  nnoremap <silent> <buffer> <script> <nowait> <s-leftmouse>  <leftmouse>:call <SID>SLeftStart()/;"	m
+<s-leftrelease>	../autoload/DrawIt.vim	/^  noremap <silent> <buffer> <script> <s-leftrelease> <leftmouse>:<c-u>call <SID>SLeftRelease()<c/;"	m
+<s-right>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <s-right>  <Esc><s-right>a$/;"	m
+<s-right>\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <s-right>	:set lz<CR>:silent! call <SID>MoveRight()<C/;"	m
+<s-up>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <s-up>     <Esc><s-up>a$/;"	m
+<s-up>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <s-up>		:set lz<CR>:silent! call <SID>MoveUp()<CR>:se/;"	m
+<space>\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <space>		:set lz<CR>:silent! call <SID>DrawErase()<CR/;"	m
+<up>	../autoload/DrawIt.vim	/^   imap <silent> <buffer> <script> <nowait> <up>       <Esc><up>a$/;"	m
+<up>\t\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> <up>			:set lz<CR>:silent! call <SID>DrawUp()<CR>:set/;"	m
+>\t\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> >			:set lz<CR>:silent! call <SID>DrawSpace('>',1)<CR/;"	m
+Canvas	../autoload/DrawIt.vim	/^  com! -count Canvas call s:Spacer(line("."),line(".") + <count> - 1,0)$/;"	c
+DIarrow	../autoload/DrawIt.vim	/^com! -nargs=0 -range	DIarrow		call s:CallBox('Arrow')$/;"	c
+DIbox	../autoload/DrawIt.vim	/^com! -nargs=0 -range	DIbox		call s:CallBox('DrawBox')$/;"	c
+DIcanvas	../autoload/DrawIt.vim	/^com! -nargs=? -range	DIcanvas	call s:Canvas(<args>)$/;"	c
+DIcircle	../autoload/DrawIt.vim	/^com! -nargs=0 -range	DIcircle	call s:CallBox('DrawEllipse')$/;"	c
+DIellipse	../autoload/DrawIt.vim	/^com! -nargs=0 -range	DIellipse	call s:CallBox('DrawEllipse')$/;"	c
+DIflood	../autoload/DrawIt.vim	/^com! -nargs=0 -range	DIflood     call s:Flood()$/;"	c
+DIgrid	../autoload/DrawIt.vim	/^com! -nargs=*			DIgrid		call s:ToggleGrid(<f-args>)$/;"	c
+DIline	../autoload/DrawIt.vim	/^com! -nargs=0 -range	DIline      call s:CallBox('DrawPlainLine')$/;"	c
+DIoff	../autoload/DrawIt.vim	/^com! -nargs=*			DIoff		call DrawIt#DrawItStop()$/;"	c
+DIspacer	../autoload/DrawIt.vim	/^com! -nargs=0 -range	DIspacer	call s:Spacer(line("'<"), line("'>"),0)$/;"	c
+DIstart	../plugin/DrawItPlugin.vim	/^com! -nargs=?       DIstart  	set lz|call DrawIt#DrawItStart(<q-args>)|set nolz$/;"	c
+DIstop	../plugin/DrawItPlugin.vim	/^com! -nargs=0       DIstop   	set lz|call DrawIt#DrawItStop()|set nolz$/;"	c
+DM	../plugin/cecutil.vim	/^com! -bar -nargs=1 DM	call DestroyMark(<q-args>)$/;"	c
+DestroyMark	../plugin/cecutil.vim	/^fun! DestroyMark(markname)$/;"	f
+DrawIt	../plugin/DrawItPlugin.vim	/^com! -nargs=0 -bang DrawIt   	set lz|if <bang>0|call DrawIt#DrawItStop()|else|call DrawIt#DrawIt/;"	c
+DrawIt#DrawItStart	../autoload/DrawIt.vim	/^fun! DrawIt#DrawItStart(...)$/;"	f
+DrawIt#DrawItStop	../autoload/DrawIt.vim	/^fun! DrawIt#DrawItStop()$/;"	f
+DrawIt#SetBrush	../autoload/DrawIt.vim	/^fun! DrawIt#SetBrush(brush) range$/;"	f
+DrawIt#SetMode	../autoload/DrawIt.vim	/^fun! DrawIt#SetMode(mode)$/;"	f
+GoWinbufnr	../plugin/cecutil.vim	/^fun! GoWinbufnr(bufnum)$/;"	f
+QArgSplitter	../plugin/cecutil.vim	/^fun! QArgSplitter(qarg)$/;"	f
+RM	../plugin/cecutil.vim	/^com! -bar -nargs=1 RM	call RestoreMark(<q-args>)$/;"	c
+RWP	../plugin/cecutil.vim	/^com! -bar -nargs=? RWP	call RestoreWinPosn(<args>)$/;"	c
+RestoreMark	../plugin/cecutil.vim	/^fun! RestoreMark(markname)$/;"	f
+RestoreUserMaps	../plugin/cecutil.vim	/^fun! RestoreUserMaps(suffix)$/;"	f
+RestoreWinPosn	../plugin/cecutil.vim	/^fun! RestoreWinPosn(...)$/;"	f
+SM	../plugin/cecutil.vim	/^com! -bar -nargs=1 SM	call SaveMark(<q-args>)$/;"	c
+SWP	../plugin/cecutil.vim	/^com! -bar -nargs=0 SWP	call SaveWinPosn()$/;"	c
+SaveMark	../plugin/cecutil.vim	/^fun! SaveMark(markname)$/;"	f
+SaveUserMaps	../plugin/cecutil.vim	/^fun! SaveUserMaps(mapmode,maplead,mapchx,suffix)$/;"	f
+SaveWinPosn	../plugin/cecutil.vim	/^fun! SaveWinPosn(...)$/;"	f
+SetBrush	../autoload/DrawIt.vim	/^  com! -nargs=1 -range SetBrush <line1>,<line2>call DrawIt#SetBrush(<q-args>)$/;"	c
+SetDrawIt	../autoload/DrawIt.vim	/^fun! SetDrawIt(di_vert,di_horiz,di_plus,di_upleft,di_upright,di_cross,di_ellipse)$/;"	f
+WLR	../plugin/cecutil.vim	/^com! -bar -nargs=1 WLR	call s:WinLineRestore(<q-args>)$/;"	c
+^\t\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> ^			:set lz<CR>:silent! call <SID>DrawSpace('^',3)<CR/;"	m
+g:DrChipTopLvlMenu	../plugin/DrawItPlugin.vim	/^  let g:DrChipTopLvlMenu= "DrChip."$/;"	v
+g:drawit_mode	../autoload/DrawIt.vim	/^	let g:drawit_mode= 'N'$/;"	v
+g:drawit_mode	../autoload/DrawIt.vim	/^   let g:drawit_mode = 'N'$/;"	v
+g:drawit_mode	../autoload/DrawIt.vim	/^   let g:drawit_mode= 'D'$/;"	v
+g:drawit_mode	../autoload/DrawIt.vim	/^   let g:drawit_mode= 'N'$/;"	v
+g:drawit_mode	../autoload/DrawIt.vim	/^   let g:drawit_mode= 'S'$/;"	v
+g:drawit_mode	../autoload/DrawIt.vim	/^ let g:drawit_mode= 'N' " other options: =S (single-line utf-*,cp437) or =D (double-line utf-*,c/;"	v
+g:drawit_xstrlen	../autoload/DrawIt.vim	/^  let g:drawit_xstrlen= 0$/;"	v
+g:drawit_xstrlen	../autoload/DrawIt.vim	/^  let g:drawit_xstrlen= 1$/;"	v
+g:drawit_xstrlen	../autoload/DrawIt.vim	/^  let g:drawit_xstrlen= g:Align_xstrlen$/;"	v
+g:drawit_xstrlen	../autoload/DrawIt.vim	/^  let g:drawit_xstrlen= g:netrw_xstrlen$/;"	v
+g:loaded_DrawIt	../autoload/DrawIt.vim	/^let g:loaded_DrawIt= "v14"$/;"	v
+g:loaded_DrawItPlugin	../plugin/DrawItPlugin.vim	/^let g:loaded_DrawItPlugin = "v14"$/;"	v
+g:loaded_cecutil	../plugin/cecutil.vim	/^let g:loaded_cecutil = "v18k"$/;"	v
+g:savemark_	../plugin/cecutil.vim	/^   let g:savemark_{markname} = ""$/;"	v
+g:savemark_	../plugin/cecutil.vim	/^   let g:savemark_{markname} = savemark$/;"	v
+s:Abs	../autoload/DrawIt.vim	/^fun! s:Abs(val)$/;"	f
+s:Arrow	../autoload/DrawIt.vim	/^fun! s:Arrow(x0, y0, x1, y1)$/;"	f
+s:AutoCanvas	../autoload/DrawIt.vim	/^fun! s:AutoCanvas(linestart,linestop,cols)$/;"	f
+s:CLeftDrag	../autoload/DrawIt.vim	/^fun! s:CLeftDrag()$/;"	f
+s:CLeftRelease	../autoload/DrawIt.vim	/^fun! s:CLeftRelease()$/;"	f
+s:CLeftStart	../autoload/DrawIt.vim	/^fun! s:CLeftStart()$/;"	f
+s:CallBox	../autoload/DrawIt.vim	/^fun! s:CallBox(func_name) range$/;"	f
+s:Canvas	../autoload/DrawIt.vim	/^fun! s:Canvas(...) range$/;"	f
+s:DI_FillAdjacent	../autoload/DrawIt.vim	/^fun! s:DI_FillAdjacent(frow,fcolL,fcolR)$/;"	f
+s:DI_FillLeft	../autoload/DrawIt.vim	/^fun! s:DI_FillLeft(frow,fcol)$/;"	f
+s:DI_FillRight	../autoload/DrawIt.vim	/^fun! s:DI_FillRight(frow,fcol)$/;"	f
+s:DI_Flood	../autoload/DrawIt.vim	/^fun! s:DI_Flood(frow,fcol)$/;"	f
+s:DrawBox	../autoload/DrawIt.vim	/^fun! s:DrawBox(x0, y0, x1, y1)$/;"	f
+s:DrawCorner	../autoload/DrawIt.vim	/^fun! s:DrawCorner()$/;"	f
+s:DrawDown	../autoload/DrawIt.vim	/^fun! s:DrawDown()$/;"	f
+s:DrawEllipse	../autoload/DrawIt.vim	/^fun! s:DrawEllipse(x0,y0,x1,y1)$/;"	f
+s:DrawErase	../autoload/DrawIt.vim	/^fun! s:DrawErase()$/;"	f
+s:DrawFatDArrow	../autoload/DrawIt.vim	/^fun! s:DrawFatDArrow()$/;"	f
+s:DrawFatLArrow	../autoload/DrawIt.vim	/^fun! s:DrawFatLArrow()$/;"	f
+s:DrawFatRArrow	../autoload/DrawIt.vim	/^fun! s:DrawFatRArrow()$/;"	f
+s:DrawFatUArrow	../autoload/DrawIt.vim	/^fun! s:DrawFatUArrow()$/;"	f
+s:DrawFour	../autoload/DrawIt.vim	/^fun! s:DrawFour(x,y,xoff,yoff,a,b)$/;"	f
+s:DrawItRestoreUserSettings	../autoload/DrawIt.vim	/^fun! s:DrawItRestoreUserSettings()$/;"	f
+s:DrawItSaveUserSettings	../autoload/DrawIt.vim	/^fun! s:DrawItSaveUserSettings()$/;"	f
+s:DrawLeft	../autoload/DrawIt.vim	/^fun! s:DrawLeft()$/;"	f
+s:DrawLine	../autoload/DrawIt.vim	/^fun! s:DrawLine(x0, y0, x1, y1, horiz)$/;"	f
+s:DrawPlainLine	../autoload/DrawIt.vim	/^fun! s:DrawPlainLine(x0,y0,x1,y1)$/;"	f
+s:DrawRight	../autoload/DrawIt.vim	/^fun! s:DrawRight()$/;"	f
+s:DrawSlantDownLeft	../autoload/DrawIt.vim	/^fun! s:DrawSlantDownLeft()$/;"	f
+s:DrawSlantDownRight	../autoload/DrawIt.vim	/^fun! s:DrawSlantDownRight()$/;"	f
+s:DrawSlantUpLeft	../autoload/DrawIt.vim	/^fun! s:DrawSlantUpLeft()$/;"	f
+s:DrawSlantUpRight	../autoload/DrawIt.vim	/^fun! s:DrawSlantUpRight()$/;"	f
+s:DrawSpace	../autoload/DrawIt.vim	/^fun! s:DrawSpace(chr,dir)$/;"	f
+s:DrawUp	../autoload/DrawIt.vim	/^fun! s:DrawUp()$/;"	f
+s:Flood	../autoload/DrawIt.vim	/^fun! s:Flood() range$/;"	f
+s:GetWinWidth	../autoload/DrawIt.vim	/^fun! s:GetWinWidth()$/;"	f
+s:IsBoundary	../autoload/DrawIt.vim	/^fun! s:IsBoundary(row,col)$/;"	f
+s:IsDnD	../autoload/DrawIt.vim	/^fun! s:IsDnD(chr)$/;"	f
+s:IsDnS	../autoload/DrawIt.vim	/^fun! s:IsDnS(chr)$/;"	f
+s:IsDrawItH	../autoload/DrawIt.vim	/^fun! s:IsDrawItH(chr)$/;"	f
+s:IsDrawItV	../autoload/DrawIt.vim	/^fun! s:IsDrawItV(chr)$/;"	f
+s:IsLeftD	../autoload/DrawIt.vim	/^fun! s:IsLeftD(chr)$/;"	f
+s:IsLeftS	../autoload/DrawIt.vim	/^fun! s:IsLeftS(chr)$/;"	f
+s:IsRightD	../autoload/DrawIt.vim	/^fun! s:IsRightD(chr)$/;"	f
+s:IsRightS	../autoload/DrawIt.vim	/^fun! s:IsRightS(chr)$/;"	f
+s:IsUpD	../autoload/DrawIt.vim	/^fun! s:IsUpD(chr)$/;"	f
+s:IsUpS	../autoload/DrawIt.vim	/^fun! s:IsUpS(chr)$/;"	f
+s:LeftRelease	../autoload/DrawIt.vim	/^fun! s:LeftRelease()$/;"	f
+s:LeftStart	../autoload/DrawIt.vim	/^fun! s:LeftStart()$/;"	f
+s:MoveDown	../autoload/DrawIt.vim	/^fun! s:MoveDown()$/;"	f
+s:MoveLeft	../autoload/DrawIt.vim	/^fun! s:MoveLeft()$/;"	f
+s:MoveRight	../autoload/DrawIt.vim	/^fun! s:MoveRight()$/;"	f
+s:MoveUp	../autoload/DrawIt.vim	/^fun! s:MoveUp()$/;"	f
+s:PutBlock	../autoload/DrawIt.vim	/^fun! s:PutBlock(block,replace)$/;"	f
+s:ReplaceDownLeft	../autoload/DrawIt.vim	/^fun! s:ReplaceDownLeft()$/;"	f
+s:ReplaceDownRight	../autoload/DrawIt.vim	/^fun! s:ReplaceDownRight()$/;"	f
+s:RestorePosn	../autoload/DrawIt.vim	/^fun! s:RestorePosn()$/;"	f
+s:SLeftDrag	../autoload/DrawIt.vim	/^fun! s:SLeftDrag()$/;"	f
+s:SLeftRelease	../autoload/DrawIt.vim	/^fun! s:SLeftRelease()$/;"	f
+s:SLeftStart	../autoload/DrawIt.vim	/^fun! s:SLeftStart()$/;"	f
+s:SavePosn	../autoload/DrawIt.vim	/^fun! s:SavePosn()$/;"	f
+s:SetCharAt	../autoload/DrawIt.vim	/^fun! s:SetCharAt(chr, x, y)$/;"	f
+s:SetPosn	../autoload/DrawIt.vim	/^fun! s:SetPosn(row,col)$/;"	f
+s:Spacer	../autoload/DrawIt.vim	/^fun! s:Spacer(debut, fin, cols) range$/;"	f
+s:Strlen	../autoload/DrawIt.vim	/^fun! s:Strlen(x)$/;"	f
+s:ToggleGrid	../autoload/DrawIt.vim	/^fun! s:ToggleGrid(...)$/;"	f
+s:WinLineRestore	../plugin/cecutil.vim	/^fun! s:WinLineRestore(swwline)$/;"	f
+s:keepcpo	../autoload/DrawIt.vim	/^let s:keepcpo= &cpo$/;"	v
+s:keepcpo	../plugin/DrawItPlugin.vim	/^let s:keepcpo             = &cpo$/;"	v
+s:keepcpo	../plugin/cecutil.vim	/^let s:keepcpo        = &cpo$/;"	v
+s:modifier	../plugin/cecutil.vim	/^ let s:modifier= "sil! "$/;"	v
+s:modifier	../plugin/cecutil.vim	/^ let s:modifier= "sil! keepj "$/;"	v
+s:saveposn_count	../autoload/DrawIt.vim	/^ let s:saveposn_count= 0$/;"	v
+v\t\t\t:set	../autoload/DrawIt.vim	/^  nmap <silent> <buffer> <script> <nowait> v			:set lz<CR>:silent! call <SID>DrawSpace('v',4)<CR/;"	m
