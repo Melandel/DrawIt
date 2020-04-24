@@ -257,6 +257,11 @@ fun! DrawIt#DrawItStart(...)
   call SaveUserMaps("bv",usermaplead,"abceflsy","DrawIt")
   call SaveUserMaps("bn","","<c-v>","DrawIt")
   call SaveUserMaps("bn",usermaplead,"cgh><v^","DrawIt")
+  call SaveUserMaps("bn","","<s-h>","DrawIt")
+  call SaveUserMaps("bn","","<s-l>","DrawIt")
+  call SaveUserMaps("bn","","<s-k>","DrawIt")
+  call SaveUserMaps("bn","","<s-h>","DrawIt")
+  call SaveUserMaps("bn","","<s-h>","DrawIt")
   call SaveUserMaps("bn","","<left>","DrawIt")
   call SaveUserMaps("bn","","<right>","DrawIt")
   call SaveUserMaps("bn","","<up>","DrawIt")
@@ -355,6 +360,10 @@ fun! DrawIt#DrawItStart(...)
   call SaveUserMaps("bn","",":\<c-v>","DrawIt")
 
   " DrawItStart: DrawIt maps (Charles Campbell) {{{3
+  nmap <silent> <buffer> <script> <nowait> <s-h>		:set lz<CR>:silent! call <SID>DrawLeft()<CR>:set nolz<CR>
+  nmap <silent> <buffer> <script> <nowait> <s-l>		:set lz<CR>:silent! call <SID>DrawRight()<CR>:set nolz<CR>
+  nmap <silent> <buffer> <script> <nowait> <s-k>			:set lz<CR>:silent! call <SID>DrawUp()<CR>:set nolz<CR>
+  nmap <silent> <buffer> <script> <nowait> <s-j>		:set lz<CR>:silent! call <SID>DrawDown()<CR>:set nolz<CR>
   nmap <silent> <buffer> <script> <nowait> <left>		:set lz<CR>:silent! call <SID>DrawLeft()<CR>:set nolz<CR>
   nmap <silent> <buffer> <script> <nowait> <right>		:set lz<CR>:silent! call <SID>DrawRight()<CR>:set nolz<CR>
   nmap <silent> <buffer> <script> <nowait> <up>			:set lz<CR>:silent! call <SID>DrawUp()<CR>:set nolz<CR>
